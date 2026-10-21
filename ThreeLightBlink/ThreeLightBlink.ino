@@ -42,6 +42,7 @@ void allOff() {
   }
 }
 
+// Edited by Tengyue Zhang on branch TengyueZ-edit (ECE 1895 Assignment 13: Intro to Git)
 void setup() {
   pinMode(BUTTON_PIN, INPUT_PULLUP);
   for (int i = 0; i < NUM_LEDS; i++) {
