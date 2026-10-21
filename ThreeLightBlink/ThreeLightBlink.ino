@@ -36,6 +36,7 @@ bool buttonPressed() {
   return digitalRead(BUTTON_PIN) == LOW;
 }
 
+// Edited by Chuxuan Zhou on branch ChuxuanZ-edit (ECE 1895 Assignment 13: Intro to Git)
 void allOff() {
   for (int i = 0; i < NUM_LEDS; i++) {
     digitalWrite(LED_PINS[i], LOW);
