@@ -50,7 +50,7 @@ void setup() {
   }
   allOff();
 }
-
+// Edited by Xiaodong Deng on branch XiaodongD-edit (ECE 1895 Assignment 13: Intro to Git)
 void loop() {
   // The button is only checked here, at the start of a cycle.
   // Once a cycle starts it always runs to the end, so releasing the
